@@ -1,0 +1,11 @@
+.content__posts {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.post {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

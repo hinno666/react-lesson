@@ -1,0 +1,69 @@
+.conetnt__posts {
+}
+.content__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -0.06em;
+  color: #272835;
+  margin: 15px 0;
+}
+.content__send-post {
+  display: flex;
+  gap: 30px;
+}
+
+.content__send-text {
+  border-radius: 15px;
+  background: #b4838315;
+  box-shadow: 0px 0px 2px rgba(34, 37, 169, 0.4);
+  flex: 1 1 auto;
+  resize: none;
+  padding: 10px;
+}
+
+.button {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 14px;
+  color: #fff;
+  background: #3d41d7;
+  box-shadow: 0px 14px 34px rgba(34, 37, 169, 0.4);
+  border-radius: 15px;
+  padding: 5px 25px;
+  flex: 0 1 220px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+button:hover {
+  color: black;
+}
+
+button:after {
+  content: "";
+  background: #FFF4F2;
+  position: absolute;
+  z-index: -1;
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 0.7s;
+}
+
+button:hover:after {
+  transform: skewX(-45deg) scale(1, 1);
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+.post__image {
+  width: 50px;
+  height: 50px;
+  background: purple;
+  border-radius: 50%;
+}

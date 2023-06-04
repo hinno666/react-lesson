@@ -1,0 +1,11 @@
+.header {
+    background: #F6F8FF;
+    border-radius: 20px;
+    padding: 40px 20px;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 10px rgba(34, 37, 169, 0.4);
+}
+.header__logo a{
+    font-size: 30px;
+    font-weight: bold;
+}
