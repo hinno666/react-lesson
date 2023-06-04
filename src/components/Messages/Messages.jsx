@@ -1,6 +1,6 @@
-import './Dialogs.css'
+import "./Messages.css";
 
-const Dialogs = (props) => {
+const Messages = (props) => {
     return (
       <div className="content content__messages">
         Dialogs
@@ -8,4 +8,4 @@ const Dialogs = (props) => {
     );
 }
  
-export default Dialogs;
+export default Messages;
