@@ -21,14 +21,14 @@
     font-size: 18px;
     line-height: 24px;
     letter-spacing: -0.2px;
-    transition: 0.5s ease;
 }
 .nav__item {
     transition: 0.5s ease;
 }
-.nav .nav__list .nav__item:hover {
+
+.nav__item:active {
     transform: scale(1.1);
 }
-.nav .nav__list .nav__item a:hover {
-    color: #fff;
+.nav .nav__list .nav__item .active {
+    color: #f0a7ff;
 }
